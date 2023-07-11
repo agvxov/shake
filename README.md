@@ -1,4 +1,5 @@
 # emake
+Easy MAKE
 
 	Usage: ./emake <input_file>
 		./emake runs the value of @COMPILECMD.
