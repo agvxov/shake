@@ -36,7 +36,7 @@ fi
 input_file=$1
 
 if [[ ! -f $input_file ]]; then
-    echo "Input file '$input_file' does not exist." >&2
+    echo -e "Input file '$input_file' does not exist." >&2
     exit 1
 fi
 
@@ -48,5 +48,5 @@ if [[ -n $line ]]; then
 
     eval "$command"
 else
-    echo "${MARKSTR} is not defined." >&2
+    echo -e "${MARKSTR} is not defined." >&2
 fi
