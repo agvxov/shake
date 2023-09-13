@@ -11,13 +11,19 @@ Easy MAKE
 I make many example/test files, many require linking and trying to remember which libraries are dependencies or copying the right command from the source file gets old fast.
 
 ### Example
+```sh
 	$ cat test/hw.c
+```
+```C
 	// @COMPILECMD gcc $@ -o hw.out
 	#include <stdio.h>
 
 	void main(){
 			puts("Hello world");
 	}
+```
+```sh
 	$ ./emake test/hw.c
 	$ ./hw.out
 	Hello world
+```
