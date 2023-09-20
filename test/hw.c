@@ -1,4 +1,4 @@
-// @COMPILECMD gcc $@ -o hw.out
+// @COMPILECMD gcc $@ -o $*.out
 #include <stdio.h>
 
 void main(){
