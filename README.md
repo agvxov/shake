@@ -12,14 +12,14 @@ I make many example/test files, many require linking and trying to remember whic
 
 ### Example
 ```C
-	$ cat test/hw.c
-	// @COMPILECMD gcc $@ -o hw.out
-	#include <stdio.h>
+$ cat test/hw.c
+// @COMPILECMD gcc $@ -o hw.out
+#include <stdio.h>
 
-	void main(){
-			puts("Hello world");
-	}
-	$ ./shake test/hw.c
-	$ ./hw.out
-	Hello world
+void main(){
+		puts("Hello world");
+}
+$ ./shake test/hw.c
+$ ./hw.out
+Hello world
 ```
