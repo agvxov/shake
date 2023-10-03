@@ -44,7 +44,7 @@ fi
 
 line=$(grep "$MARK" "$input_file")
 line=${line//\$@/$input_file}
-line=${line//\$*/${input_file%.*}}
+line=${line//\$\*/${input_file%.*}}
 
 if [[ -n $line ]]; then
     command="${line#*@COMPILECMD }"
