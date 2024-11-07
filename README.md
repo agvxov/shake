@@ -7,7 +7,7 @@ NOTE:
 The bake repository tracks the most up to date
 versions of all implementations.
 
-Mirrors:
+Bake mirrors:
 * [github](https://github.com/emilwilliams/bake)
 * [onion](https://bis64wqhh3louusbd45iyj76kmn4rzw5ysawyan5bkxwyzihj67c5lid.onion/emil/bake)
 
